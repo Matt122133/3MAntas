@@ -2,3 +2,7 @@ __pycache__/
 **/__pycache__/
 *.py[cod]
 .claude/settings.local.json
+node_modules/
+dist/
+.astro/
+node_modules/

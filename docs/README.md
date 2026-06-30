@@ -29,7 +29,7 @@ Plan-driven work. First-class artifacts — reviewed before any code is written.
   sections, `covers:`/`verify:` frontmatter, living-document discipline.
 - [Plan template](exec-plans/_template.md) — copy, fill, commit to `active/`.
 - `exec-plans/active/` — the plan currently in flight (one at a time).
-- [MANTAS-002 — MVP landing: sitio Astro deployado en GitHub Pages](exec-plans/active/2026-06-30_MANTAS-002_mvp-landing-astro.md) — **active** — construye la landing completa: hero, productos (2–3 mantas), contacto WhatsApp/mail, y envios.
+- [MANTAS-002 — MVP landing: sitio Astro deployado en GitHub Pages](exec-plans/2026-06-30_MANTAS-002_mvp-landing-astro.md) — completado 2026-06-30 — construye la landing completa: hero, productos (2–3 mantas), contacto WhatsApp/mail, y envios.
 - [MANTAS-001 — Definicion de MVP y stack tecnico](exec-plans/2026-06-30_MANTAS-001_definicion-mvp-y-stack.md) — completado 2026-06-30; documentacion base, harness y ADR de direccion del proyecto.
 
 ## Decisions

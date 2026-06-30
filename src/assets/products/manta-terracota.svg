@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#f1dfd7"/>
+  <rect x="110" y="120" width="980" height="660" rx="44" fill="#f7ebe6"/>
+  <path d="M210 650c110-145 239-205 390-205 149 0 285 60 390 205" stroke="#c47b62" stroke-width="58" stroke-linecap="round"/>
+  <path d="M210 552c110-145 239-205 390-205 149 0 285 60 390 205" stroke="#a65f4b" stroke-width="58" stroke-linecap="round"/>
+  <text x="600" y="180" text-anchor="middle" fill="#5d4635" font-size="58" font-family="Georgia, serif">Manta Terracota</text>
+</svg>

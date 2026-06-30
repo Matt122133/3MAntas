@@ -1,5 +1,5 @@
 ---
-status: active
+status: completed
 id: MANTAS-002
 slug: mvp-landing-astro
 covers:
@@ -7,8 +7,11 @@ covers:
   - public/
   - astro.config.mjs
   - package.json
+  - package-lock.json
   - tsconfig.json
+  - tailwind.config.mjs
   - .github/workflows/
+  - .gitignore
   - README.md
   - ARCHITECTURE.md
 verify: npm run build && test -d dist && grep -r "whatsapp.com" dist/index.html
