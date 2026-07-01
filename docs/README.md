@@ -52,6 +52,10 @@ How-we-work: workflow, conventions, setup.
 
 - [Harness — Operating Manual](processes/harness.md) — the four-phase workflow,
   phase gates, session exit, steering loop.
+- [Analysis](analysis/) — registros de trabajo, pasos, hallazgos y verificación
+  para tareas no triviales.
+- [Analysis MANTAS-001](analysis/2026-06-30_MANTAS-001_definicion-mvp-y-stack.md) — contexto y avance de la definición del MVP y del stack.
+- [Analysis MANTAS-002](analysis/2026-06-30_MANTAS-002_mvp-landing-astro.md) — contexto y avance de la landing Astro y su validación.
 - [Developer setup](processes/dev-setup.md) — toolchain, common commands, the
   plan-coverage check — **fill in for this stack**.
 

@@ -37,7 +37,8 @@ Every session starts the same way:
 3. Scan `docs/exec-plans/active/` — what is in flight. If a plan is present,
    hold its `covers:` prefixes in working context.
 4. Scan `docs/decisions/` — what is already decided.
-5. Read `ARCHITECTURE.md` before touching code.
+5. Check whether a task-specific analysis note is needed in `docs/analysis/`.
+6. Read `ARCHITECTURE.md` before touching code.
 
 Do not produce output before the bootstrap is done. If the user's first
 message is urgent, do the bootstrap silently, then proceed.
@@ -110,6 +111,8 @@ ask "approve this plan?" and stop. Never infer approval from engagement.
 Execute the plan step by step:
 
 - Update the Progress log after each step.
+- If the task is non-trivial, keep a short analysis note in `docs/analysis/`
+  with the steps taken, findings, and verification evidence.
 - If a step reveals information that changes the plan, **stop**, update the
   plan, get re-approval. Do not improvise.
 - Stay inside `covers:`. The plan-coverage check at pre-commit
