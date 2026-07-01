@@ -92,7 +92,9 @@ Before producing substantive output, the agent:
    read its `covers:` and keep the prefix list in working context so every
    Edit/Write can be checked at the call site.
 4. Scans `docs/decisions/` — what is already decided.
-5. Reads [`ARCHITECTURE.md`](ARCHITECTURE.md) before touching code; checks
+5. Checks whether a task-specific analysis note is needed in
+   [`docs/analysis/`](docs/analysis/) for non-trivial work.
+6. Reads [`ARCHITECTURE.md`](ARCHITECTURE.md) before touching code; checks
    [`docs/tech-debt-tracker.md`](docs/tech-debt-tracker.md) if the task area
    overlaps open debt.
 6. **Harness-version check (best-effort).** Read `.harness-version` at the repo
