@@ -2,28 +2,21 @@
 import { Image } from "astro:assets";
 import natural from "../assets/products/manta-natural.svg";
 import terracota from "../assets/products/manta-terracota.svg";
-import musgo from "../assets/products/manta-musgo.svg";
 
 const whatsappNumber = "+59895546950";
 
 const products = [
   {
-    name: "Manta Natural",
-    color: "Tono crudo suave",
-    detail: "Ideal para un living cálido o para sumar textura al dormitorio.",
+    name: "Manta Crema-Crudo",
+    color: "Crema-Crudo",
+    detail: "Una opción cálida y neutra para renovar el dormitorio o el living con un tono natural.",
     image: natural
   },
   {
-    name: "Manta Terracota",
-    color: "Terracota cálido",
-    detail: "Una variante con más presencia visual, perfecta para rincones de lectura.",
+    name: "Manta Superchocolate",
+    color: "Superchocolate",
+    detail: "Un tono profundo y acogedor para aportar calidez a los espacios más íntimos.",
     image: terracota
-  },
-  {
-    name: "Manta Musgo",
-    color: "Verde musgo",
-    detail: "Una opción sobria y natural para espacios tranquilos y neutros.",
-    image: musgo
   }
 ];
 ---
@@ -33,14 +26,11 @@ const products = [
     <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
       <div>
         <p class="text-sm font-semibold uppercase tracking-[0.28em] text-ember">Productos</p>
-        <h2 class="mt-3 font-display text-4xl font-semibold text-bark sm:text-5xl">Tres mantas, un mismo oficio, distintos colores.</h2>
+        <h2 class="mt-3 font-display text-4xl font-semibold text-bark sm:text-5xl">Mantas hechas con el mismo cuidado, en distintos tonos.</h2>
       </div>
-      <p class="max-w-xl text-base leading-7 text-bark/75">
-        Trabajamos con pocas variantes para concentrarnos en la calidad del tejido y la terminación.
-      </p>
     </div>
 
-    <div class="mt-12 grid gap-8 lg:grid-cols-3">
+    <div class="mt-12 grid gap-8 lg:grid-cols-2">
       {products.map((product) => {
         const text = encodeURIComponent(`Hola, quiero consultar por la ${product.name}.`);
         return (
@@ -50,6 +40,7 @@ const products = [
               <p class="text-xs font-semibold uppercase tracking-[0.22em] text-ember">{product.color}</p>
               <h3 class="mt-3 font-display text-3xl text-bark">{product.name}</h3>
               <p class="mt-4 text-base leading-7 text-bark/75">{product.detail}</p>
+              <p class="mt-3 text-sm font-medium uppercase tracking-[0.16em] text-ember">Tamaños: 1.20 x 60 cm o 1.40 x 80 cm</p>
               <a
                 href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${text}`}
                 target="_blank"
