@@ -71,7 +71,7 @@ Archivos a generar:
 
 Archivo: `src/components/Hero.astro`.
 
-Contiene: titulo principal ("Mantas de lana artesanales" o el que el usuario
+Contiene: titulo principal ("Mantas de lana corriedal" o el que el usuario
 defina), subtitulo/descripcion corta (texto provisto por el usuario antes de
 ejecutar este paso), y un boton CTA primario que lleva a la seccion de contacto.
 

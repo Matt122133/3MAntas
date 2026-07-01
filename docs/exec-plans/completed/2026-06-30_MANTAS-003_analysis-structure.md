@@ -1,5 +1,5 @@
 ---
-status: active
+status: completed
 id: MANTAS-003
 slug: analysis-structure
 covers:
