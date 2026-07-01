@@ -19,11 +19,10 @@ For agent guidance and the workflow, see [`AGENTS.md`](AGENTS.md) and
 ## Overview
 
 3MAntas is a promotional web project for a handmade blanket business. The
-repository is currently in definition mode: the harness and process docs are
-already active, while the product implementation (frontend, content model, and
-deployment setup) will be built in the next execution plan. The final surface
-will be a public marketing website focused on catalog display, trust signals,
-and contact/conversion channels.
+repository now contains a static Astro landing page, styled with Tailwind CSS
+and deployable to GitHub Pages. The surface is a single-page marketing site
+focused on catalog display, trust signals, direct contact, and shipping
+coordination by WhatsApp.
 
 ## Top-level layout
 

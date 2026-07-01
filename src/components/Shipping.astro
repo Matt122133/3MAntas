@@ -1,0 +1,31 @@
+---
+const whatsappNumber = "+59895546950";
+const shippingText = encodeURIComponent("Hola, quiero consultar por envíos y costos según mi zona.");
+---
+
+<section class="px-6 py-20 sm:px-10 lg:px-12">
+  <div class="mx-auto grid max-w-6xl gap-8 rounded-[2rem] border border-bark/10 bg-white p-8 shadow-soft lg:grid-cols-[0.95fr_1.05fr] lg:p-10">
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-[0.28em] text-ember">Envíos</p>
+      <h2 class="mt-4 font-display text-4xl font-semibold text-bark sm:text-5xl">Coordinamos cada entrega según tu zona.</h2>
+    </div>
+
+    <div>
+      <p class="text-lg leading-8 text-bark/80">
+        Realizamos envíos y el costo se define según la ubicación. La idea es resolverlo conversando,
+        para poder darte una respuesta clara según tu zona y el tipo de entrega.
+      </p>
+      <p class="mt-5 text-base leading-7 text-bark/75">
+        Si querés, también podés consultar por retiro o por tiempos estimados antes de confirmar.
+      </p>
+      <a
+        href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${shippingText}`}
+        target="_blank"
+        rel="noreferrer"
+        class="mt-8 inline-flex items-center rounded-full border border-bark/15 bg-oat px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-bark transition hover:border-bark/35 hover:bg-[#efe4d6]"
+      >
+        Consultar por envíos
+      </a>
+    </div>
+  </div>
+</section>
